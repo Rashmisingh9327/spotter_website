@@ -1,0 +1,55 @@
+
+
+/* .anim {
+  animation: animatedkey 0.6s ease-out forwards;
+  opacity: 0;
+  transform: translateY(22px);
+  animation-fill-mode: forwards;
+  overflow:hidden
+}
+
+
+@keyframes animatedkey {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+} */
+
+.anim {
+  opacity: 0;
+  transform: translateY(22px);
+  animation: animatedkey 0.6s ease-out forwards;
+  visibility: hidden;
+  will-change: transform, opacity;
+}
+
+@keyframes animatedkey {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+    visibility: visible;
+  }
+}
+
+
+.text-anim span {
+  display: inline-block;
+  opacity: 0;
+  transform: translateY(10px);
+  transition: opacity 0.3s ease, transform 0.3s ease;
+  color: white;
+  font-size: 16px;
+}
+
+.text-anim span.visible {
+  opacity: 1;
+  transform: translateY(0);
+  color: white;
+    font-size: 16px
+}
+
+.text-anim.completed {
+  /* color: green;  */
+}
+
