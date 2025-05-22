@@ -1,1 +1,1397 @@
-<h1> 403 forbidden </h1>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>spotter website</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Owl Carousel CSS -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/anim.css" />
+</head>
+
+<body>
+    <div class="site-wrapper">
+        <header class="header" id="main-header">
+            <nav class="navbar navbar-expand-xl">
+                <div class="container">
+                    <a class="navbar-brand me-0" href="#">
+                        <svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                            x="0px" y="0px" viewBox="0 0 944.7 623.7" xml:space="preserve" height="20">
+                            <style type="text/css">
+                                .st0 {
+                                    fill: #008080;
+                                }
+
+                                .st1 {
+                                    fill: #f84960;
+                                }
+
+                                .st2 {
+                                    fill: #bcddde;
+                                }
+                            </style>
+                            <g id="dots_copy">
+                                <circle class="st0" cx="150" cy="472.7" r="147.4"></circle>
+                                <circle class="st1" cx="150" cy="150.8" r="147.4"></circle>
+                                <circle class="st2" cx="472.3" cy="472.7" r="147.4"></circle>
+                                <circle class="st2" cx="794.7" cy="472.7" r="147.4"></circle>
+                            </g>
+                        </svg>
+                        <svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                            x="0px" y="0px" viewBox="0 0 2146.4 576" xml:space="preserve" height="25" color="black">
+                            <style type="text/css">
+                                .st0 {
+                                    fill: currentColor;
+                                }
+                            </style>
+                            <g id="white_logo">
+                                <path class="st0"
+                                    d="M616.3,266c-5.5-41.1-24.3-75.5-55.4-102.9c-27.3-24-59.3-37.1-95.3-40.9c-18.1-1.9-36-0.5-53.7,3.7 c-45.7,10.7-81.1,35.9-106.2,75.5c-17.1,27.1-25,57.1-25.1,89c-0.1,83.3,0,166.7,0,250c0,1,0,2,0,3c0.3,3.5,0.9,7,2.5,10.2 c4.1,7.8,10.6,12.3,19.3,12.6c8.6,0.3,15.8-3,20.5-10.6c2.8-4.4,3.6-9.4,3.6-14.5c0-43.7,0-87.5,0-131.2v-4.4 c1.5,0.1,1.9,1,2.5,1.6c4.4,4.4,8.9,8.6,13.8,12.4c41.6,32.5,88.3,44.6,140.3,34.5c37-7.2,68.2-25.3,92.9-53.7 C609.5,361.7,623.2,316.7,616.3,266z M447.9,412.3c-68.3-0.3-122.7-56.5-122.7-122.9c0-66.3,53.3-123.8,123.6-123.4 c69.6,0,123.4,55.4,123.4,123.6C572.1,356.9,517.4,412.6,447.9,412.3z">
+                                </path>
+                                <path class="st0"
+                                    d="M1906,279c-0.3-5.5-0.4-11.1-1.1-16.6c-3.5-28.8-12.6-55.5-29.8-79c-29.3-40.2-69.1-60.6-118.8-62 c-13.3-0.4-26.4,1.5-39.4,4.4c-27.3,6.1-51.3,18.7-71.8,37.6c-30.4,28.1-47,63.4-52.2,104.2c-2.7,21.4-1.2,42.5,3.7,63.4 c8.1,34.3,24.8,63.4,51.2,86.8c26.5,23.6,58,36,93.2,39.2c19.5,1.7,38.8,0,57.9-4.5c28.7-6.7,53.2-20.4,72.6-43 c6.4-7.5,8.4-15.9,5.3-25.3c-3-9.1-12.8-14.4-21.8-13c-6.9,1.1-12.5,4.5-17.2,9.5c-9.3,9.7-20.1,17-32.5,22.4 c-14.7,6.4-30.2,8.6-46.1,9c-10.9,0.3-21.7-0.5-32.3-3.3c-50.1-13-80.2-53.9-87.7-97.9c-0.8-4.9-0.8-4.3,3.7-4.3 c40.1,0,80.2,0,120.4,0c39.5,0,79,0,118.5,0c1.2,0,2.5,0,3.8,0c8.6-0.5,15.7-5.7,18.3-13.6C1905.4,288.6,1906.3,283.9,1906,279z  M1640.7,263.3c-0.3-2,0.4-3.9,0.8-5.6c6.8-26.8,20.1-49.7,42-66.9c18.5-14.6,39.6-22.7,63.2-24.3c16.7-1.1,33,0.6,48.5,7.2 c32,13.7,52.6,37.6,63.4,70.4c2,6.1,3.3,12.4,3.9,19.2H1640.7z">
+                                </path>
+                                <path class="st0"
+                                    d="M981.2,253.1c-10-46.2-35.5-82-75.7-106.7c-38-23.3-79.4-30.1-123.3-21.5c-36.9,7.2-67.9,24.9-93.1,52.7 c-37,40.7-49.9,98-38.7,147.5c7.9,34.9,24.9,64.4,51.3,88.5c32.4,29.4,71,43.2,112.5,44.2c15.7-0.2,29.1-1.9,42.4-5.1 c42.9-10.5,76.7-34.1,100.8-70.8C983.3,342.4,991.2,299.2,981.2,253.1z M816.1,412.2c-70.3,0.3-123.7-56.8-123.7-122.9 c0.1-66.9,53.8-123.5,124.1-123.4c70,0.2,122.8,55.8,122.8,123.6C939.3,356.4,885.7,412.7,816.1,412.2z">
+                                </path>
+                                <path class="st0"
+                                    d="M1026.5,174c0-44.9,0-89.7,0-134.6c0-9.1,3.2-16.5,11.1-21.5c12.9-8.1,30.5-0.9,33.9,13.4 c0.7,3.1,1.1,6.2,1.1,9.4c0,26.4,0,52.7,0,79c0,0.8,0,1.5,0,2.3c0,3.4-0.3,3.3,3.3,3.3c30,0,60.1,0,90.1,0c18.6,0,37.1-0.1,55.6,0 c5.7,0,11.3,1,16.1,4.7c7.2,5.5,9.5,13,8.1,21.7c-1,6.3-4.2,11.2-9.6,14.7c-3.4,2.2-7.2,3-11.1,3.4c-1.9,0.2-3.8,0.2-5.7,0.2 c-47.4,0-94.9,0-142.3,0c-5,0-4.5-0.6-4.5,4.4c0,40.5,0,80.9,0,121.4c0,13.9,0.8,27.8,4.1,41.3c4.1,17.1,10.9,33,22.8,46.3 c15.2,17.1,34.2,26.8,57,28.5c17,1.2,33.8,0.2,50.1-5.4c13.9-4.8,26.1-12.6,37.5-21.6c2.1-1.6,4.1-3.4,6.3-4.8 c9.1-5.8,21-4.2,27.9,3.7c3.9,4.4,5,9.8,4.4,15.6c-0.6,6.2-3.4,11.5-8,15.9c-20.7,20.1-44.9,33.5-73.4,38.9 c-18.1,3.4-36.2,4.9-54.6,2.4c-43.3-6-76.2-27.6-98-65.5c-9.2-16-14.5-33.4-18.1-51.5c-2.7-13.6-4-27.4-4-41.3 C1026.5,256.7,1026.5,215.3,1026.5,174L1026.5,174z">
+                                </path>
+                                <path class="st0"
+                                    d="M1316.3,175.3c0-45.1,0-90.3,0-135.4c0-5.9,1.1-11.5,4.9-16.3c5.3-6.8,12.4-10,20.9-8.8 c10,1.4,16.8,7,19.3,17.1c0.7,2.7,0.9,5.5,0.9,8.3c0,27,0,54,0,80.9c0,4.3-0.6,4.1,4,4.1c48.2,0,96.4,0,144.6,0 c6.1,0,12.1,1.1,17.1,5c6.7,5.4,8.9,12.5,7.7,20.9c-0.9,6.5-4,11.5-9.5,15.1c-3.4,2.2-7.2,3-11.1,3.4c-2,0.2-4,0.2-6.1,0.2 c-47.1,0-94.1,0-141.2,0c-0.6,0-1.2,0-1.9,0c-3.6,0-3.6,0-3.6,3.4c0,0.4,0,0.8,0,1.1c0,40.3,0,80.7,0,121c0,13.1,0.8,26.2,3.6,39.1 c4,18.1,11,34.8,23.4,48.8c15.1,17,34,26.7,56.7,28.3c17.7,1.2,35.3,0.2,52.2-6.1c13.1-4.9,24.8-12.4,35.7-21c2-1.6,3.9-3.3,6-4.6 c9.1-5.8,20.9-4.4,27.9,3.4c3.9,4.3,5,9.6,4.5,15.1c-0.5,6.4-3.3,11.8-7.9,16.3c-20,19.2-43.1,32.6-70.4,38.4 c-19,4-38.2,5.7-57.5,3.1c-43.3-5.9-76.2-27.5-98.1-65.4c-9.2-15.9-14.5-33.2-18-51.1c-3-14.9-4.1-30-4.1-45.1 C1316.3,255,1316.3,215.1,1316.3,175.3z">
+                                </path>
+                                <path class="st0"
+                                    d="M120.9,121.3c15,0,29.7,2,44,6.3c22.5,6.6,40.9,19.3,55.6,37.4c1.4,1.8,2.9,3.5,4.2,5.3 c5.3,7.2,6.8,15.1,3.7,23.6c-3.5,9.7-13.1,15-22.8,13.1c-7.4-1.5-13.2-5-17.8-11.1c-11.9-15.6-27.8-24.5-47-27.9 c-16.3-2.9-32.6-2.7-48.9,0.8c-6.8,1.5-13.3,4-19.4,7.4c-7.1,4-12.9,9.3-16.4,16.8c-5.8,12.5-4.8,31.1,8.6,43 c5.5,4.8,11.6,8.5,18.1,11.6c12.1,5.8,24.8,9.8,37.6,13.6c19,5.6,37.9,11.4,56.2,19c14.8,6.2,29,13.7,41.1,24.4 c21.7,19.2,29.2,43.5,24,71.7c-5.1,27.6-21.6,47.1-44.8,61.8c-13.7,8.6-28.9,13.7-44.7,16.8c-24.7,4.8-49.2,3.1-73.5-2.7 c-19.4-4.6-37.1-12.7-52.6-25.4c-9.1-7.4-16.4-16.5-22.5-26.3c-4.1-6.6-4.7-13.8-1.6-21c3.8-8.9,12.8-12.8,22.1-11.5 c6,0.8,11.4,3.2,16.1,7c1,0.8,1.9,1.7,2.6,2.7c10.9,16.5,26.8,26,45.5,31c14.7,3.9,29.8,4.7,45,3.9c14.7-0.8,28.2-5.1,40.6-13 c9.3-6,16.7-13.8,20.7-24.4c5.3-13.9,3-29.5-8.4-40.4c-5.5-5.3-11.9-9.4-18.6-12.8c-14.2-7.3-29.3-12.2-44.5-16.9 c-12.2-3.7-24.6-6.6-36.7-10.6c-13.8-4.6-27.2-10.1-39.4-18.1c-8.3-5.4-15.9-11.5-22.4-19.1c-13-15.4-18.6-33.4-17.8-53.2 c0.9-21.5,9.4-39.8,25.8-54c11.2-9.8,24-16.6,38.2-21C87.2,124,103.8,121.3,120.9,121.3z">
+                                </path>
+                                <path class="st0"
+                                    d="M1941.9,355.9c0-22.1-0.3-44.1,0.1-66.2c0.5-25.1,5-49.7,14.8-72.9c17-40.1,46.7-66.5,87.7-80.4 c19.1-6.5,38.8-10,58.9-10.8c6-0.3,12.1-0.9,18.1,0c6.4,1.1,12.1,3.4,16.1,8.8c9.7,13.1,2.7,32.9-13.1,35.9 c-2.8,0.5-5.5,0.8-8.3,0.9c-17.1,0.4-34,1.9-50.3,7.4c-16.5,5.5-31.4,13.6-44,25.8c-14.3,13.9-23.2,30.9-28.6,49.9 c-4.1,14.4-5.5,29.2-5.5,44.1c-0.1,43,0,86,0,129c0,6-1.3,11.7-5,16.7c-8.8,11.7-27.1,11.1-35.9-0.1c-3.8-4.8-5.1-10.3-5.1-16.2 c0-24,0-47.9,0-71.9C1941.9,355.9,1941.9,355.9,1941.9,355.9z">
+                                </path>
+                            </g>
+                        </svg>
+                    </a>
+
+                    <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                        <ul class="navbar-nav header-nav">
+                            <li class="nav-item open-submenu" data-target="product-menu">
+                                <a class="nav-link" aria-current="page" href="#">Product</a>
+                                <i class="fa-solid fa-angle-right ms-auto d-xl-none d-inline-block"></i>
+                                <div class="custome-drop-container">
+                                    <div class="custome-drop-parent">
+                                        <div class="custome-drop-chiled">
+                                            <div class="custom-drop-part">
+                                                <p class="heading">Capabilities</p>
+                                                <div class="mt-3 row mx-0">
+                                                    <div class='col-12 px-0'>
+                                                        <ul class='nav d-flex flex-column drop-down-list'>
+                                                            <li>
+                                                                <a class='d-flex flex-row gap-1 align-items-start'>
+                                                                    <span class="icon-btn">
+                                                                        <img src="./assets/img/des-mo.png"
+                                                                            class="img-fluid" />
+                                                                    </span>
+                                                                    <div class="drop-part-detail">
+                                                                        <h3>Identification</h3>
+                                                                        <p>Industry-leading accuracy.</p>
+                                                                    </div>
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <a class='d-flex flex-row gap-1 align-items-start'>
+                                                                    <span class="icon-btn">
+                                                                        <img src="./assets/img/des-mo.png"
+                                                                            class="img-fluid" />
+                                                                    </span>
+                                                                    <div class="drop-part-detail">
+                                                                        <h3>Identification</h3>
+                                                                        <p>Industry-leading accuracy.</p>
+                                                                    </div>
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <a class='d-flex flex-row gap-1 align-items-start'>
+                                                                    <span class="icon-btn">
+                                                                        <img src="./assets/img/des-mo.png"
+                                                                            class="img-fluid" />
+                                                                    </span>
+                                                                    <div class="drop-part-detail">
+                                                                        <h3>Identification</h3>
+                                                                        <p>Industry-leading accuracy.</p>
+                                                                    </div>
+                                                                </a>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="custom-drop-part">
+                                                <p class="heading">Capabilities</p>
+                                                <div class="mt-3 row mx-0">
+                                                    <div class='col-12 px-0'>
+                                                        <ul class='nav d-flex flex-column drop-down-list'>
+                                                            <li>
+                                                                <a class='d-flex flex-row gap-1 align-items-start'>
+                                                                    <span class="icon-btn">
+                                                                        <img src="./assets/img/des-mo.png"
+                                                                            class="img-fluid" />
+                                                                    </span>
+                                                                    <div class="drop-part-detail">
+                                                                        <h3>Identification</h3>
+                                                                        <p>Industry-leading accuracy.</p>
+                                                                    </div>
+                                                                </a>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!--Mobile  Product Submenu -->
+                                <div class="menu-screen submenu" id="product-menu">
+                                    <div class="submenu-header">
+                                        <button class="back-btn" data-back="main-menu"><i class="fa-solid fa-chevron-left"></i> Back</button>
+                                    </div>
+                                    <div class='sub-body'>
+                                        <div class="row mx-0">
+                                            <div class="col-12 px-0">
+                                                <p class="heading">Capabilities</p>
+                                                <div class="mt-3 row mx-0">
+                                                    <div class='col-12 px-0'>
+                                                        <ul class='nav d-flex flex-column drop-down-list'>
+                                                            <li>
+                                                                <a class='d-flex flex-row gap-1 align-items-start'>
+                                                                    <span class="icon-btn">
+                                                                        <img src="./assets/img/des-mo.png"
+                                                                            class="img-fluid" />
+                                                                    </span>
+                                                                    <div class="drop-part-detail">
+                                                                        <h3>Identification</h3>
+                                                                        <p>Industry-leading accuracy.</p>
+                                                                    </div>
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <a class='d-flex flex-row gap-1 align-items-start'>
+                                                                    <span class="icon-btn">
+                                                                        <img src="./assets/img/des-mo.png"
+                                                                            class="img-fluid" />
+                                                                    </span>
+                                                                    <div class="drop-part-detail">
+                                                                        <h3>Identification</h3>
+                                                                        <p>Industry-leading accuracy.</p>
+                                                                    </div>
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <a class='d-flex flex-row gap-1 align-items-start'>
+                                                                    <span class="icon-btn">
+                                                                        <img src="./assets/img/des-mo.png"
+                                                                            class="img-fluid" />
+                                                                    </span>
+                                                                    <div class="drop-part-detail">
+                                                                        <h3>Identification</h3>
+                                                                        <p>Industry-leading accuracy.</p>
+                                                                    </div>
+                                                                </a>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                </div>
+                                            </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="#">Use Cases</a>
+                                <i class="fa-solid fa-angle-right ms-auto d-xl-none d-inline-block"></i>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="#">Developers</a>
+                                <i class="fa-solid fa-angle-right ms-auto d-xl-none d-inline-block"></i>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="#">Resources</a>
+                                <i class="fa-solid fa-angle-right ms-auto d-xl-none d-inline-block"></i>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="#">Demo</a>
+                                <i class="fa-solid fa-angle-right ms-auto d-xl-none d-inline-block"></i>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="#">Pricing</a>
+                                <i class="fa-solid fa-angle-right ms-auto d-xl-none d-inline-block"></i>
+                            </li>
+                        </ul>
+                        <div class="d-xl-none z-3 d-flex px-4 w-100 position-fixed bottom-0 start-0 end-0">
+                            <a class="start-btn">Get Started</a>
+                        </div>
+                    </div>
+                    <ul class="nav align-items-center ms-auto header-btn-action">
+                        <li class="d-xl-block d-none">
+                            <a class="btn-login"> Login</a>
+                        </li>
+                        <li class="d-md-block d-none">
+                            <a class="btn btn-secondary"> Contact Sales</a>
+                        </li>
+                        <li class="d-md-block d-none">
+                            <a class="btn btn-primary">Get Started</a>
+                        </li>
+                        <li>
+                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                                aria-label="Toggle navigation">
+                                <i class="fa-solid fa-bars humburger"></i>
+                                <i class="fa-solid fa-xmark custom-close-icon"></i>
+                            </button>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+
+        <div class="site-content">
+            <section class="hero-banner">
+                <div class="container">
+                    <div class="hero-box">
+                        <h1 class="h1-title">
+                            <span class="animed fadeInUp">Identify</span>
+                            <span class="animed fadeInUp primary-clr">Every</span>
+                            <span class="animed fadeInUp primary-clr">Visitor</span>
+                        </h1>
+                        <p class="animed fadeInUp banner-detail d-block">
+                            Stop fraud, detect bots, or delight customers. Identify good and
+                            bad <br />
+                            visitors with industry-leading accuracy - even if they're
+                            anonymous.
+                        </p>
+
+                        <div class="banner-btn-action animed fadeInUp">
+                            <a class="btn btn-primary">Get Started</a>
+                            <a class="btn btn-secondary">Contact Sales</a>
+                        </div>
+                    </div>
+
+                    <div class="row mx-0 custom-develop-box">
+                        <div class="col-12 px-0 d-flex justify-content-center">
+                            <img src="./assets/img/dev-lop-ifram.png" class="img-fluid text-center" />
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="company-section">
+                <div class="container">
+                    <div class="mx-0 row border-l-r company-container">
+                        <div class="col-12">
+                            <h3 class="company-title">
+                                Trusted by 6000+ companies of all sizes
+                            </h3>
+                        </div>
+                        <div class="col-12 d-none d-lg-block">
+                            <div class="d-flex flex-row flex-wrap company-logo">
+                                <img src="./assets/img/1.png" class="img-fluid fade-in-image" />
+                                <img src="./assets/img/tatanew.png" class="img-fluid fade-in-image" />
+                                <img src="./assets/img/binance.png" class="img-fluid fade-in-image" />
+                                <img src="./assets/img/r-brand.png" class="img-fluid fade-in-image" />
+                                <img src="./assets/img/naukri.png" class="img-fluid fade-in-image" />
+                                <img src="./assets/img/xendit.png" class="img-fluid fade-in-image" />
+                                <img src="./assets/img/zee5.png" class="img-fluid fade-in-image" />
+                                <img src="./assets/img/agoda.png" class="img-fluid fade-in-image" />
+                                <img src="./assets/img/tiktok.png" class="img-fluid fade-in-image" />
+                                <img src="./assets/img/home.png" class="img-fluid fade-in-image" />
+                            </div>
+                        </div>
+                        <div class="col-12 d-lg-none d-block">
+                            <div class="d-flex flex-row flex-wrap company-logo">
+                                <img src="./assets/img/1.png" class="img-fluid fade-in-image" />
+                                <img src="./assets/img/tatanew.png" class="img-fluid fade-in-image" />
+                                <img src="./assets/img/binance.png" class="img-fluid fade-in-image" />
+                                <img src="./assets/img/r-brand.png" class="img-fluid fade-in-image" />
+
+                            </div>
+                            <div class="d-flex flex-row flex-wrap company-logo">
+                                <img src="./assets/img/naukri.png" class="img-fluid fade-in-image" />
+                                <img src="./assets/img/xendit.png" class="img-fluid fade-in-image" />
+                                <img src="./assets/img/zee5.png" class="img-fluid fade-in-image" />
+                                <img src="./assets/img/agoda.png" class="img-fluid fade-in-image" />
+                            </div>
+                            <div class="d-flex flex-row flex-wrap company-logo">
+                                <img src="./assets/img/tiktok.png" class="img-fluid fade-in-image" />
+                                <img src="./assets/img/home.png" class="img-fluid fade-in-image" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="border-btm-m">
+                <div class="container">
+                    <div class="row mx-0 border-l-r border-btm use-case-section">
+                        <div class="col-md-6">
+                            <div class="use-case-left">
+
+                                <span class="text-anim use-case-btn" data-text="Use case"><span
+                                        class="blink">_</span></span>
+                                <h2 class="use-case-title">
+                                    Build <mark>safe</mark> and<br /><mark>seamless</mark>
+                                    products
+                                </h2>
+                                <p class="use-case-detail">
+                                    The device intelligence platform for visitor intent.<br />
+                                    <strong> Reduce friction </strong>for the good guys.<strong>Stop the bad
+                                        guys.</strong>
+                                </p>
+                                <a class="see-all-btn"> See all Use Cases </a>
+                            </div>
+                        </div>
+                        <div class="col-md-6 border-lft"></div>
+                    </div>
+
+
+                    <div class="row border-btm border-l-r mx-0">
+                        <!-- LEFT SIDE -->
+                        <div class="col-md-6 ps-0 pe-md-2 pe-0">
+                            <div class="custom-accordion">
+                                <div class="accordion" id="leftAccordion">
+
+                                    <!-- Item 1 -->
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header">
+                                            <button class="accordion-button collapsed" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#collapse1"
+                                                data-right="right1">
+                                                <span class="icon-btn"><img src="./assets/img/user.png"
+                                                        class="img-fluid" />
+                                                </span> Account Takeover
+                                            </button>
+                                        </h2>
+                                        <div id="collapse1" class="accordion-collapse collapse"
+                                            data-bs-parent="#leftAccordion">
+                                            <div class="accordion-body">
+                                                Identify and block login attempts using stolen credentials while
+                                                recognizing legitimate users.
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!-- Item 2 -->
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header">
+                                            <button class="accordion-button collapsed" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#collapse2"
+                                                data-right="right2">
+                                                <span class="icon-btn"><img src="./assets/img/pay.png"
+                                                        class="img-fluid" /></span> Payment Fraud
+                                            </button>
+                                        </h2>
+                                        <div id="collapse2" class="accordion-collapse collapse"
+                                            data-bs-parent="#leftAccordion">
+                                            <div class="accordion-body">
+                                                Reduce fraudulent transactions and increase legitimate conversions with
+                                                device intelligence signals.
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!-- Item 3 -->
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header">
+                                            <button class="accordion-button collapsed" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#collapse3"
+                                                data-right="right3">
+                                                <span class="icon-btn"><img src="./assets/img/sms.png"
+                                                        class="img-fluid" /></span> SMS Fraud
+                                            </button>
+                                        </h2>
+                                        <div id="collapse3" class="accordion-collapse collapse"
+                                            data-bs-parent="#leftAccordion">
+                                            <div class="accordion-body">
+                                                Prevent SMS pumping fraud attacks and SIM swapping scams with mobile
+                                                device intelligence signals.
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!-- Item 4 -->
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header">
+                                            <button class="accordion-button collapsed" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#collapse4"
+                                                data-right="right4">
+                                                <span class="icon-btn"><img src="./assets/img/bot.png"
+                                                        class="img-fluid" /></span> Bot Detection
+                                            </button>
+                                        </h2>
+                                        <div id="collapse4" class="accordion-collapse collapse"
+                                            data-bs-parent="#leftAccordion">
+                                            <div class="accordion-body">
+                                                Detect malicious bots, automation tools, and other sophisticated threats
+                                                to prevent real-time attacks.
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- RIGHT SIDE -->
+                        <div class="col-md-6 d-md-block d-none border-lft">
+                            <div id="right1" class="right-panel active">
+                                <img src="./assets/img/user-img.png" class="img-fluid" />
+                            </div>
+
+                            <div id="right2" class="right-panel">
+                                <img src="./assets/img/pay-right.png" class="img-fluid" />
+                            </div>
+
+                            <div id="right3" class="right-panel">
+                                <img src="./assets/img/sms-r.png" class="img-fluid" />
+                            </div>
+
+                            <div id="right4" class="right-panel">
+                                <img src="./assets/img/bot-r.png" class="img-fluid" />
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row  d-md-flex d-none  mx-0 border-l-r">
+                        <div class="col-6 py-5">
+
+                        </div>
+                        <div class="col-6 py-5 border-lft">
+
+                        </div>
+                    </div>
+            </section>
+
+            <section class="internet-visitor-section">
+                <div class="container">
+                    <div class="row mx-0 border-l-r py-2">
+                        <div class="col-md-7">
+                            <div class="internet-visitor-card-container">
+                                <div class="internet-visitor-card-top">
+                                    <div>
+                                        <span class="text-anim use-case-btn" data-text="Why Fingerprint"><span
+                                                class="blink">_</span></span>
+                                        <h2 class="use-case-title">
+                                            The internet's most<br /><mark>accurate</mark>
+                                            visitor identifier
+                                        </h2>
+                                        <p class="use-case-detail">
+                                            <strong>Industry-leading accuracy</strong> that lasts for months<br /> or
+                                            years, even when cookies are cleared
+                                        </p>
+                                        <a class="see-all-btn"> Learn More </a>
+                                    </div>
+                                </div>
+                                <div>
+                                    <img src="./assets/img/internet.png" class="img-fluid" />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-5 d-md-block d-none">
+                            <div class="d-flex flex-column row-gap-2">
+                                <div class="common-card-section">
+                                    <div class="parent-flex">
+                                        <img src="./assets/img/secrch.png" class="img-fluid" />
+                                        <div class="d-flex flex-column row-gap-1">
+                                            <h5 class="mb-0">Any browser, any device.</h5>
+                                            <p>
+                                                Identify returning web and mobile app visitors on all browsers, iOS, and
+                                                Android, with exceptional accuracy.
+                                            </p>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="common-card-section pt-0 px-0">
+                                    <div class="dot-parent">
+                                        <div class="dot-child">
+                                            <svg xmlns="http://www.w3.org/2000/svg" fill="none"
+                                                preserveAspectRatio="xMidYMid slice" viewBox="0 0 468 190"
+                                                class="WhyFingerprintSection-module--radarSvg--0993c">
+                                                <g fill="#D9D9D9" clip-path="url(#a)">
+                                                    <path d="M-3 6h6V0h-6zm18 0h6V0h-6z"></path>
+                                                    <path d="M33 6h6V0h-6z"></path>
+                                                    <path d="M51 6h6V0h-6z"></path>
+                                                    <path d="M69 6h6V0h-6zm18 0h6V0h-6z"></path>
+                                                    <path d="M105 6h6V0h-6z"></path>
+                                                    <path d="M123 6h6V0h-6z"></path>
+                                                    <path d="M141 6h6V0h-6z"></path>
+                                                    <path d="M159 6h6V0h-6z"></path>
+                                                    <path d="M177 6h6V0h-6z"></path>
+                                                    <path d="M195 6h6V0h-6z"></path>
+                                                    <path d="M213 6h6V0h-6z"></path>
+                                                    <path d="M231 6h6V0h-6z"></path>
+                                                    <path d="M249 6h6V0h-6z"></path>
+                                                    <path d="M267 6h6V0h-6z"></path>
+                                                    <path d="M285 6h6V0h-6z"></path>
+                                                    <path d="M303 6h6V0h-6zm18 0h6V0h-6z"></path>
+                                                    <path d="M357 6h6V0h-6z"></path>
+                                                    <path d="M375 6h6V0h-6z"></path>
+                                                    <path d="M393 6h6V0h-6z"></path>
+                                                    <path d="M411 6h6V0h-6z"></path>
+                                                    <path d="M429 6h6V0h-6z"></path>
+                                                    <path d="M447 6h6V0h-6zm18 0h6V0h-6z"></path>
+                                                    <path d="M-3 28h6v-6h-6z"></path>
+                                                    <path d="M15 28h6v-6h-6z"></path>
+                                                    <path d="M33 28h6v-6h-6z"></path>
+                                                    <path d="M51 28h6v-6h-6zm18 0h6v-6h-6z"></path>
+                                                    <path d="M87 28h6v-6h-6z"></path>
+                                                    <path d="M105 28h6v-6h-6z"></path>
+                                                    <path d="M123 28h6v-6h-6z"></path>
+                                                    <path d="M141 28h6v-6h-6z"></path>
+                                                    <path d="M159 28h6v-6h-6z"></path>
+                                                    <path d="M177 28h6v-6h-6zm18 0h6v-6h-6zm18 0h6v-6h-6z"></path>
+                                                    <path d="M231 28h6v-6h-6z"></path>
+                                                    <path d="M267 28h6v-6h-6zm36 0h6v-6h-6z"></path>
+                                                    <path
+                                                        d="M321 28h6v-6h-6zm18 0h6v-6h-6zm18 0h6v-6h-6zm18 0h6v-6h-6z">
+                                                    </path>
+                                                    <path d="M393 28h6v-6h-6z"></path>
+                                                    <path d="M411 28h6v-6h-6z"></path>
+                                                    <path d="M429 28h6v-6h-6z"></path>
+                                                    <path d="M447 28h6v-6h-6zm18 0h6v-6h-6zM-3 50h6v-6h-6z"></path>
+                                                    <path d="M15 50h6v-6h-6z"></path>
+                                                    <path d="M33 50h6v-6h-6z"></path>
+                                                    <path d="M51 50h6v-6h-6z"></path>
+                                                    <path d="M69 50h6v-6h-6zm18 0h6v-6h-6zm18 0h6v-6h-6z"></path>
+                                                    <path d="M123 50h6v-6h-6z"></path>
+                                                    <path d="M141 50h6v-6h-6z"></path>
+                                                    <path d="M159 50h6v-6h-6z"></path>
+                                                    <path d="M177 50h6v-6h-6z"></path>
+                                                    <path d="M195 50h6v-6h-6z"></path>
+                                                    <path d="M213 50h6v-6h-6z"></path>
+                                                    <path d="M231 50h6v-6h-6z"></path>
+                                                    <path d="M249 50h6v-6h-6zm18 0h6v-6h-6zm18 0h6v-6h-6z"></path>
+                                                    <path d="M303 50h6v-6h-6z"></path>
+                                                    <path d="M321 50h6v-6h-6z"></path>
+                                                    <path d="M357 50h6v-6h-6z"></path>
+                                                    <path d="M375 50h6v-6h-6z"></path>
+                                                    <path d="M393 50h6v-6h-6z"></path>
+                                                    <path d="M411 50h6v-6h-6z"></path>
+                                                    <path d="M429 50h6v-6h-6z"></path>
+                                                    <path d="M465 50h6v-6h-6z"></path>
+                                                    <path d="M6 72h6v-6H6z"></path>
+                                                    <path d="M24 72h6v-6h-6z"></path>
+                                                    <path d="M42 72h6v-6h-6z"></path>
+                                                    <path d="M60 72h6v-6h-6zm18 0h6v-6h-6zm18 0h6v-6h-6z"></path>
+                                                    <path d="M114 72h6v-6h-6z"></path>
+                                                    <path d="M150 72h6v-6h-6z"></path>
+                                                    <path d="M168 72h6v-6h-6zm18 0h6v-6h-6z"></path>
+                                                    <path d="M204 72h6v-6h-6z"></path>
+                                                    <path d="M222 72h6v-6h-6z"></path>
+                                                    <path d="M240 72h6v-6h-6z"></path>
+                                                    <path d="M258 72h6v-6h-6z"></path>
+                                                    <path d="M276 72h6v-6h-6z"></path>
+                                                    <path d="M330 72h6v-6h-6z"></path>
+                                                    <path d="M348 72h6v-6h-6z"></path>
+                                                    <path d="M366 72h6v-6h-6z"></path>
+                                                    <path d="M384 72h6v-6h-6z"></path>
+                                                    <path d="M402 72h6v-6h-6z"></path>
+                                                    <path d="M420 72h6v-6h-6z"></path>
+                                                    <path d="M438 72h6v-6h-6zm18 0h6v-6h-6zm6 22h-6v-6h6z"></path>
+                                                    <path d="M444 94h-6v-6h6zm-18 0h-6v-6h6z"></path>
+                                                    <path d="M408 94h-6v-6h6zm-18 0h-6v-6h6z"></path>
+                                                    <path d="M372 94h-6v-6h6zm-18 0h-6v-6h6z"></path>
+                                                    <path d="M336 94h-6v-6h6zm-18 0h-6v-6h6z"></path>
+                                                    <path d="M282 94h-6v-6h6z"></path>
+                                                    <path d="M264 94h-6v-6h6z"></path>
+                                                    <path d="M246 94h-6v-6h6z"></path>
+                                                    <path d="M228 94h-6v-6h6zm-18 0h-6v-6h6zm-18 0h-6v-6h6z"></path>
+                                                    <path d="M174 94h-6v-6h6z"></path>
+                                                    <path d="M156 94h-6v-6h6zm-18 0h-6v-6h6z"></path>
+                                                    <path d="M120 94h-6v-6h6z"></path>
+                                                    <path d="M102 94h-6v-6h6z"></path>
+                                                    <path d="M84 94h-6v-6h6z"></path>
+                                                    <path d="M66 94h-6v-6h6z"></path>
+                                                    <path d="M30 94h-6v-6h6zm-18 0H6v-6h6z"></path>
+                                                    <path d="M-3 110h6v6h-6z"></path>
+                                                    <path d="M15 110h6v6h-6z"></path>
+                                                    <path d="M33 110h6v6h-6z"></path>
+                                                    <path d="M51 110h6v6h-6zm18 0h6v6h-6z"></path>
+                                                    <path d="M87 110h6v6h-6z"></path>
+                                                    <path d="M105 110h6v6h-6z"></path>
+                                                    <path d="M123 110h6v6h-6zm18 0h6v6h-6z"></path>
+                                                    <path d="M159 110h6v6h-6z"></path>
+                                                    <path d="M177 110h6v6h-6z"></path>
+                                                    <path d="M213 110h6v6h-6zm18 0h6v6h-6z"></path>
+                                                    <path d="M249 110h6v6h-6z"></path>
+                                                    <path d="M267 110h6v6h-6zm18 0h6v6h-6z"></path>
+                                                    <path d="M303 110h6v6h-6z"></path>
+                                                    <path d="M321 110h6v6h-6zm18 0h6v6h-6z"></path>
+                                                    <path d="M357 110h6v6h-6z"></path>
+                                                    <path d="M375 110h6v6h-6z"></path>
+                                                    <path d="M393 110h6v6h-6z"></path>
+                                                    <path d="M411 110h6v6h-6z"></path>
+                                                    <path d="M429 110h6v6h-6z"></path>
+                                                    <path
+                                                        d="M447 110h6v6h-6zm18 0h6v6h-6zm6 28h-6v-6h6zm-18 0h-6v-6h6z">
+                                                    </path>
+                                                    <path d="M435 138h-6v-6h6z"></path>
+                                                    <path d="M417 138h-6v-6h6z"></path>
+                                                    <path d="M399 138h-6v-6h6zm-18 0h-6v-6h6z"></path>
+                                                    <path d="M363 138h-6v-6h6z"></path>
+                                                    <path d="M345 138h-6v-6h6z"></path>
+                                                    <path d="M327 138h-6v-6h6z"></path>
+                                                    <path d="M309 138h-6v-6h6z"></path>
+                                                    <path d="M291 138h-6v-6h6z"></path>
+                                                    <path d="M273 138h-6v-6h6z"></path>
+                                                    <path d="M255 138h-6v-6h6z"></path>
+                                                    <path d="M237 138h-6v-6h6z"></path>
+                                                    <path d="M219 138h-6v-6h6z"></path>
+                                                    <path d="M201 138h-6v-6h6z"></path>
+                                                    <path d="M183 138h-6v-6h6z"></path>
+                                                    <path d="M165 138h-6v-6h6zm-18 0h-6v-6h6z"></path>
+                                                    <path d="M111 138h-6v-6h6z"></path>
+                                                    <path d="M93 138h-6v-6h6z"></path>
+                                                    <path d="M75 138h-6v-6h6z"></path>
+                                                    <path d="M57 138h-6v-6h6z"></path>
+                                                    <path d="M39 138h-6v-6h6z"></path>
+                                                    <path d="M21 138h-6v-6h6zm-18 0h-6v-6h6z"></path>
+                                                    <path d="M471 154h-6v6h6z"></path>
+                                                    <path d="M453 154h-6v6h6z"></path>
+                                                    <path d="M435 154h-6v6h6z"></path>
+                                                    <path d="M417 154h-6v6h6zm-18 0h-6v6h6z"></path>
+                                                    <path d="M381 154h-6v6h6z"></path>
+                                                    <path d="M363 154h-6v6h6z"></path>
+                                                    <path d="M345 154h-6v6h6z"></path>
+                                                    <path d="M327 154h-6v6h6z"></path>
+                                                    <path d="M309 154h-6v6h6z"></path>
+                                                    <path d="M291 154h-6v6h6zm-18 0h-6v6h6zm-18 0h-6v6h6z"></path>
+                                                    <path d="M237 154h-6v6h6z"></path>
+                                                    <path d="M201 154h-6v6h6zm-36 0h-6v6h6z"></path>
+                                                    <path
+                                                        d="M147 154h-6v6h6zm-18 0h-6v6h6zm-18 0h-6v6h6zm-18 0h-6v6h6z">
+                                                    </path>
+                                                    <path d="M75 154h-6v6h6z"></path>
+                                                    <path d="M57 154h-6v6h6z"></path>
+                                                    <path d="M39 154h-6v6h6z"></path>
+                                                    <path d="M21 154h-6v6h6zm-18 0h-6v6h6z"></path>
+                                                    <path d="M-3 176h6v6h-6z"></path>
+                                                    <path d="M15 176h6v6h-6z"></path>
+                                                    <path d="M33 176h6v6h-6z"></path>
+                                                    <path d="M51 176h6v6h-6zm18 0h6v6h-6z"></path>
+                                                    <path d="M87 176h6v6h-6z"></path>
+                                                    <path d="M105 176h6v6h-6z"></path>
+                                                    <path d="M123 176h6v6h-6z"></path>
+                                                    <path d="M141 176h6v6h-6z"></path>
+                                                    <path d="M159 176h6v6h-6z"></path>
+                                                    <path d="M177 176h6v6h-6zm18 0h6v6h-6zm18 0h6v6h-6z"></path>
+                                                    <path d="M231 176h6v6h-6z"></path>
+                                                    <path d="M267 176h6v6h-6zm36 0h6v6h-6z"></path>
+                                                    <path d="M321 176h6v6h-6zm18 0h6v6h-6zm18 0h6v6h-6zm18 0h6v6h-6z">
+                                                    </path>
+                                                    <path d="M393 176h6v6h-6z"></path>
+                                                    <path d="M411 176h6v6h-6z"></path>
+                                                    <path d="M429 176h6v6h-6z"></path>
+                                                    <path d="M447 176h6v6h-6zm18 0h6v6h-6zm6 22h-6v6h6z"></path>
+                                                </g>
+                                                <defs>
+                                                    <clipPath id="a">
+                                                        <path fill="#fff" d="M0 0h468v226H0z"></path>
+                                                    </clipPath>
+                                                </defs>
+                                            </svg>
+                                        </div>
+                                    </div>
+                                    <div class="parent-flex common-cars-space">
+                                        <img src="./assets/img/identify.png" class="img-fluid" />
+                                        <div class="d-flex flex-column row-gap-1">
+                                            <h5 class="mb-0">Identify all anonymous visitors.</h5>
+                                            <p>Get details on suspicious visitors even when VPN, incognito mode, or a
+                                                tampered browser or device is used.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="common-card-section">
+                                    <div class="parent-flex">
+                                        <img src="./assets/img/start.png
+                                        " class="img-fluid" />
+                                        <div class="d-flex flex-column row-gap-1">
+                                            <h5 class="mb-0">Delight your trusted users.</h5>
+                                            <p>
+                                                Personalize user experience and reduce 2FA and OTP requirements by
+                                                identifying logged-out users.
+                                            </p>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-12 d-block d-md-none mt-3 mb-4">
+                            <div class="mobile-slider">
+                                <div class="swiper swipermobile">
+                                    <div class="swiper-wrapper">
+                                        <div class="swiper-slide">
+                                            <div class="common-card-section">
+                                                <div class="parent-flex">
+                                                    <img src="./assets/img/secrch.png" class="img-fluid" />
+                                                    <div class="d-flex flex-column row-gap-1">
+                                                        <h5 class="mb-0">Any browser, any device.</h5>
+                                                        <p>
+                                                            Identify returning web and mobile app visitors on all
+                                                            browsers, iOS, and
+                                                            Android, with exceptional accuracy.
+                                                        </p>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div class="common-card-section">
+
+                                                <div class="parent-flex">
+                                                    <img src="./assets/img/identify.png" class="img-fluid" />
+                                                    <div class="d-flex flex-column row-gap-1">
+                                                        <h5 class="mb-0">Identify all anonymous visitors.</h5>
+                                                        <p>Get details on suspicious visitors even when VPN, incognito
+                                                            mode, or a
+                                                            tampered browser or device is used.
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div class="common-card-section">
+                                                <div class="parent-flex">
+                                                    <img src="./assets/img/start.png
+                                        " class="img-fluid" />
+                                                    <div class="d-flex flex-column row-gap-1">
+                                                        <h5 class="mb-0">Delight your trusted users.</h5>
+                                                        <p>
+                                                            Personalize user experience and reduce 2FA and OTP
+                                                            requirements by
+                                                            identifying logged-out users.
+                                                        </p>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="">
+                <div class="container">
+                    <div class="row mx-0 border-l-r border-btm use-case-section">
+                        <div class="col-md-6">
+                            <div class="use-case-left">
+                                <span class="text-anim use-case-btn" data-text="Customer Stories"><span
+                                        class="blink">_</span></span>
+                                <h2 class="use-case-title">
+                                    Fight fraud with <mark>Fingerprint</mark>
+                                </h2>
+                                <p class="use-case-detail">
+                                    See how our customers .<br />
+                                    <strong> stop fraud in real time for real results. </strong>
+                                </p>
+                                <a class="see-all-btn"> See all Case Studies </a>
+                            </div>
+                        </div>
+                        <div class="col-md-6 border-lft"></div>
+                    </div>
+                    <div class="row mx-0  border-l-r pb-md-0 pb-5">
+                        <div class="col-12 px-0">
+
+                            <div class="swiper testimonialSwiper">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <div class="testimonial-text">
+                                            <div class="row mx-0 testimonial-card ">
+                                                <div class="col-md-3 px-0">
+                                                    <div class="testimonial-card-child">
+                                                        <img src="./assets/img/drop.png" class="img-fluid" />
+                                                        <h3>
+                                                            Fingerprint helps Checkout.com to <strong> enhance their
+                                                                fraud detection capabilities.</strong>
+                                                        </h3>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-6 px-0 testimonial-card-center-bg">
+                                                    <div class="testimonial-card-center-box">
+                                                        <p><q>We are very happy with the account takeover attacks that
+                                                                we could stop. Without Fingerprint
+                                                                it would have been much harder for us to identify these
+                                                                fraudsters.</q></p>
+
+                                                        <div class="user-info">
+                                                            <h4>Prashanth Yerramilli</h4>
+                                                            <p>Manager - Platform Abuse Team @ Dropbox</p>
+                                                            <p>Enterprise</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-3 px-0 d-md-block d-none">
+                                                    <img src="./assets/img/folder.png" class="img-fluid w-100">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="testimonial-text">
+                                            <div class="row mx-0 testimonial-card ">
+                                                <div class="col-md-3 px-0">
+                                                    <div class="testimonial-card-child">
+                                                        <img src="./assets/img/headout.png" class="img-fluid" />
+                                                        <h3>
+                                                            Fingerprint helps Headout to <strong>
+                                                                reduce chargebacks and identify fraud attacks
+                                                                instantly.</strong>
+                                                        </h3>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-6 px-0 testimonial-card-center-bg">
+                                                    <div class="testimonial-card-center-box">
+                                                        <p><q><strong>Ease of implementation</strong> was very important
+                                                                to us [as well as] <strong>the accuracy.</strong> We
+                                                                previously couldn’t identify the devices used by
+                                                                fraudulent actors the way we can today with
+                                                                Fingerprint</q></p>
+
+                                                        <div class="user-info">
+                                                            <h4>Shivam Darmora</h4>
+                                                            <p>Associate Director of Data<strong> @ Headout</strong></p>
+                                                            <p>Enterprise</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-3 px-0 d-md-block d-none">
+                                                    <img src="./assets/img/plan-head-3.png" class="img-fluid w-100">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="testimonial-text">
+                                            <div class="row mx-0 testimonial-card ">
+                                                <div class="col-md-3 px-0">
+                                                    <div class="testimonial-card-child">
+                                                        <img src="./assets/img/juma.png" class="img-fluid" />
+                                                        <h3>
+                                                            Fingerprint gives Jumia complete visibility and the ability
+                                                            to <strong>block malicious traffic.</strong>
+                                                        </h3>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-6 px-0 testimonial-card-center-bg">
+                                                    <div class="testimonial-card-center-box">
+                                                        <p><q>We found value in Fingerprint because <strong>we have full
+                                                                    control over what's going on</strong>, and we
+                                                                desired the ability to <strong>block the traffic
+                                                                    ourselves.</strong></q></p>
+
+                                                        <div class="user-info">
+                                                            <h4>Ankit Pandey</h4>
+                                                            <p>Sr. Product Manager<strong> @ JumiaPay</strong></p>
+                                                            <p>Enterprise</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-3 px-0 d-md-block d-none">
+                                                    <img src="./assets/img/jumia-3.png" class="img-fluid w-100">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="swiper-slide">
+                                        <div class="testimonial-text">
+                                            <div class="row mx-0 testimonial-card ">
+                                                <div class="col-md-3 px-0">
+                                                    <div class="testimonial-card-child">
+                                                        <img src="./assets/img/checkoout.png" class="img-fluid" />
+                                                        <h3>
+                                                            Fingerprint helps Checkout.com to <strong>enhance their
+                                                                fraud detection capabilities.</strong>
+                                                        </h3>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-6 px-0 testimonial-card-center-bg">
+                                                    <div class="testimonial-card-center-box">
+                                                        <p><q>
+                                                                <strong>Reliable infrastructure that scales</strong>
+                                                                regardless of throughput. Webhook capabilities, domain
+                                                                whitelisting, DNS white labelling. Integration for
+                                                                browsers, Android and iOS.
+                                                            </q></p>
+
+                                                        <div class="user-info">
+                                                            <h4>Pierre Roudaut</h4>
+                                                            <p>Sr Engineering Manager - Fraud<strong> @
+                                                                    Checkout.com</strong></p>
+                                                            <p>Enterprise</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-3 px-0 d-md-block d-none">
+                                                    <img src="./assets/img/checkout-3.png" class="img-fluid w-100">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Logo Progress Bar Nav -->
+                            <div class="logo-slider-nav">
+                                <div class="logo-slide active" data-slide="0">
+                                    <img src="./assets/img/drop.png" class="img-fluid">
+                                    <div class="progress-bar"></div>
+                                </div>
+                                <div class="logo-slide" data-slide="1">
+                                    <img src="./assets/img/headout.png" class="img-fluid">
+                                    <div class="progress-bar"></div>
+                                </div>
+                                <div class="logo-slide" data-slide="2">
+                                    <img src="./assets/img/juma.png" class="img-fluid">
+                                    <div class="progress-bar"></div>
+                                </div>
+                                <div class="logo-slide" data-slide="3">
+                                    <img src="./assets/img/checkoout.png" class="img-fluid">
+                                    <div class="progress-bar"></div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="row mx-0 border-l-r d-md-flex d-none">
+
+                        <div class="col-6 py-5">
+
+                        </div>
+                        <div class="col-6 py-5 border-lft">
+
+                        </div>
+                    </div>
+                    <img src="./assets/img/Screenshot (14).png" class="img-fluid w-100" />
+
+                    <div class="row mx-0 border-l-r d-md-flex d-none">
+                        <div class="col-6 py-5">
+
+                        </div>
+                        <div class="col-6 py-5 border-lft">
+
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section>
+                <div class="container">
+                    <div class="row mx-0 pt-md-0 pt-3 pb-md-0 pb-5 border-l-r border-ct">
+                        <div class="col-md-4 customer-part-card">
+                            <div class="left-line"></div>
+                            <h3>250 +</h3>
+                            <p>countries and territories <br />
+                                where we identified devices_
+                            </p>
+                        </div>
+                        <div class="col-md-4 customer-part-card border-l-r">
+                            <div class="left-line"></div>
+                            <h3>2 Billion +</h3>
+                            <p>unique browsers and <br />
+                                mobile devices identified_
+                            </p>
+                        </div>
+                        <div class="col-md-4 customer-part-card">
+                            <div class="left-line"></div>
+                            <h3>50 Million +</h3>
+                            <p>real-time device intelligence<br />
+                                API events per day processed_
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="web-mobile-trafic-section">
+                <div class="container">
+                    <div class="row mx-0 py-2 border-ct border-l-r border-btm">
+                        <div class="col-md-6">
+                            <div class="mobile-left-box">
+                                <h2 class="use-case-title p-0">
+                                    Identify your <mark class="p-0">web</mark> and<br /><mark class="p-0">mobile</mark>
+                                    traffic in minutes
+                                </h2>
+                                <p class="use-case-detail p-0">
+                                    Collect visitor IDs and signals <strong>instantly for free,</strong><br /> or reach
+                                    out to our team for a demo.</p>
+                                <div class="mt-4 d-flex flex-row align-items-center gap-2">
+                                    <a class="btn btn-primary">Get Started</a>
+                                    <a class="btn btn-secondary">Contact Sales</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 mt-md-0 mt-3 d-flex flex-column flex-md-row gap-2 ps-md-0">
+                            <div class="d-flex flex-row flex-md-column gap-2 align-items-baseline">
+                                <span class="span-img-btn">
+                                    <img src="./assets/img/gdpr.png" class="img-fluid" />
+                                </span>
+                                <span class="span-img-btn">
+
+                                    <img src="./assets/img/iso.png" class="img-fluid" />
+                                </span>
+                                <span class="span-img-btn">
+
+                                    <img src="./assets/img/aicpa.png" class="img-fluid" />
+                                </span>
+                            </div>
+                            <span class="span-img-leader">
+                                <img src="./assets/img/leader.png" class="img-fluid d-md-block d-none" />
+                                <img src="./assets/img/m-leader.png" class="img-fluid d-block d-md-none" />
+                            </span>
+
+                        </div>
+                    </div>
+
+                    <div class="row mx-0 border-l-r d-md-flex d-none">
+                        <div class="col-12 py-5">
+
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+        </div>
+
+        <footer>
+            <section class="top-footer">
+                <div class="container">
+                    <div class="row mx-0 px-0">
+                        <div class="col-lg-3 ps-0">
+                            <div class="footer-logo-box">
+                                <a class="me-0" href="#">
+                                    <svg id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+                                        xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                                        viewBox="0 0 944.7 623.7" xml:space="preserve" height="20">
+                                        <style type="text/css">
+                                            .st00 {
+                                                fill: #008080 !important;
+                                            }
+
+                                            .st1 {
+                                                fill: #f84960;
+                                            }
+
+                                            .st2 {
+                                                fill: #bcddde;
+                                            }
+                                        </style>
+                                        <g id="dots_copy">
+                                            <circle class="st00" cx="150" cy="472.7" r="147.4"></circle>
+                                            <circle class="st1" cx="150" cy="150.8" r="147.4"></circle>
+                                            <circle class="st2" cx="472.3" cy="472.7" r="147.4"></circle>
+                                            <circle class="st2" cx="794.7" cy="472.7" r="147.4"></circle>
+                                        </g>
+                                    </svg>
+                                    <svg id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+                                        xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                                        viewBox="0 0 2146.4 576" xml:space="preserve" height="25" color="white">
+                                        <style type="text/css">
+                                            .st0 {
+                                                fill: currentColor;
+                                            }
+                                        </style>
+                                        <g id="white_logo">
+                                            <path class="st0"
+                                                d="M616.3,266c-5.5-41.1-24.3-75.5-55.4-102.9c-27.3-24-59.3-37.1-95.3-40.9c-18.1-1.9-36-0.5-53.7,3.7 c-45.7,10.7-81.1,35.9-106.2,75.5c-17.1,27.1-25,57.1-25.1,89c-0.1,83.3,0,166.7,0,250c0,1,0,2,0,3c0.3,3.5,0.9,7,2.5,10.2 c4.1,7.8,10.6,12.3,19.3,12.6c8.6,0.3,15.8-3,20.5-10.6c2.8-4.4,3.6-9.4,3.6-14.5c0-43.7,0-87.5,0-131.2v-4.4 c1.5,0.1,1.9,1,2.5,1.6c4.4,4.4,8.9,8.6,13.8,12.4c41.6,32.5,88.3,44.6,140.3,34.5c37-7.2,68.2-25.3,92.9-53.7 C609.5,361.7,623.2,316.7,616.3,266z M447.9,412.3c-68.3-0.3-122.7-56.5-122.7-122.9c0-66.3,53.3-123.8,123.6-123.4 c69.6,0,123.4,55.4,123.4,123.6C572.1,356.9,517.4,412.6,447.9,412.3z">
+                                            </path>
+                                            <path class="st0"
+                                                d="M1906,279c-0.3-5.5-0.4-11.1-1.1-16.6c-3.5-28.8-12.6-55.5-29.8-79c-29.3-40.2-69.1-60.6-118.8-62 c-13.3-0.4-26.4,1.5-39.4,4.4c-27.3,6.1-51.3,18.7-71.8,37.6c-30.4,28.1-47,63.4-52.2,104.2c-2.7,21.4-1.2,42.5,3.7,63.4 c8.1,34.3,24.8,63.4,51.2,86.8c26.5,23.6,58,36,93.2,39.2c19.5,1.7,38.8,0,57.9-4.5c28.7-6.7,53.2-20.4,72.6-43 c6.4-7.5,8.4-15.9,5.3-25.3c-3-9.1-12.8-14.4-21.8-13c-6.9,1.1-12.5,4.5-17.2,9.5c-9.3,9.7-20.1,17-32.5,22.4 c-14.7,6.4-30.2,8.6-46.1,9c-10.9,0.3-21.7-0.5-32.3-3.3c-50.1-13-80.2-53.9-87.7-97.9c-0.8-4.9-0.8-4.3,3.7-4.3 c40.1,0,80.2,0,120.4,0c39.5,0,79,0,118.5,0c1.2,0,2.5,0,3.8,0c8.6-0.5,15.7-5.7,18.3-13.6C1905.4,288.6,1906.3,283.9,1906,279z  M1640.7,263.3c-0.3-2,0.4-3.9,0.8-5.6c6.8-26.8,20.1-49.7,42-66.9c18.5-14.6,39.6-22.7,63.2-24.3c16.7-1.1,33,0.6,48.5,7.2 c32,13.7,52.6,37.6,63.4,70.4c2,6.1,3.3,12.4,3.9,19.2H1640.7z">
+                                            </path>
+                                            <path class="st0"
+                                                d="M981.2,253.1c-10-46.2-35.5-82-75.7-106.7c-38-23.3-79.4-30.1-123.3-21.5c-36.9,7.2-67.9,24.9-93.1,52.7 c-37,40.7-49.9,98-38.7,147.5c7.9,34.9,24.9,64.4,51.3,88.5c32.4,29.4,71,43.2,112.5,44.2c15.7-0.2,29.1-1.9,42.4-5.1 c42.9-10.5,76.7-34.1,100.8-70.8C983.3,342.4,991.2,299.2,981.2,253.1z M816.1,412.2c-70.3,0.3-123.7-56.8-123.7-122.9 c0.1-66.9,53.8-123.5,124.1-123.4c70,0.2,122.8,55.8,122.8,123.6C939.3,356.4,885.7,412.7,816.1,412.2z">
+                                            </path>
+                                            <path class="st0"
+                                                d="M1026.5,174c0-44.9,0-89.7,0-134.6c0-9.1,3.2-16.5,11.1-21.5c12.9-8.1,30.5-0.9,33.9,13.4 c0.7,3.1,1.1,6.2,1.1,9.4c0,26.4,0,52.7,0,79c0,0.8,0,1.5,0,2.3c0,3.4-0.3,3.3,3.3,3.3c30,0,60.1,0,90.1,0c18.6,0,37.1-0.1,55.6,0 c5.7,0,11.3,1,16.1,4.7c7.2,5.5,9.5,13,8.1,21.7c-1,6.3-4.2,11.2-9.6,14.7c-3.4,2.2-7.2,3-11.1,3.4c-1.9,0.2-3.8,0.2-5.7,0.2 c-47.4,0-94.9,0-142.3,0c-5,0-4.5-0.6-4.5,4.4c0,40.5,0,80.9,0,121.4c0,13.9,0.8,27.8,4.1,41.3c4.1,17.1,10.9,33,22.8,46.3 c15.2,17.1,34.2,26.8,57,28.5c17,1.2,33.8,0.2,50.1-5.4c13.9-4.8,26.1-12.6,37.5-21.6c2.1-1.6,4.1-3.4,6.3-4.8 c9.1-5.8,21-4.2,27.9,3.7c3.9,4.4,5,9.8,4.4,15.6c-0.6,6.2-3.4,11.5-8,15.9c-20.7,20.1-44.9,33.5-73.4,38.9 c-18.1,3.4-36.2,4.9-54.6,2.4c-43.3-6-76.2-27.6-98-65.5c-9.2-16-14.5-33.4-18.1-51.5c-2.7-13.6-4-27.4-4-41.3 C1026.5,256.7,1026.5,215.3,1026.5,174L1026.5,174z">
+                                            </path>
+                                            <path class="st0"
+                                                d="M1316.3,175.3c0-45.1,0-90.3,0-135.4c0-5.9,1.1-11.5,4.9-16.3c5.3-6.8,12.4-10,20.9-8.8 c10,1.4,16.8,7,19.3,17.1c0.7,2.7,0.9,5.5,0.9,8.3c0,27,0,54,0,80.9c0,4.3-0.6,4.1,4,4.1c48.2,0,96.4,0,144.6,0 c6.1,0,12.1,1.1,17.1,5c6.7,5.4,8.9,12.5,7.7,20.9c-0.9,6.5-4,11.5-9.5,15.1c-3.4,2.2-7.2,3-11.1,3.4c-2,0.2-4,0.2-6.1,0.2 c-47.1,0-94.1,0-141.2,0c-0.6,0-1.2,0-1.9,0c-3.6,0-3.6,0-3.6,3.4c0,0.4,0,0.8,0,1.1c0,40.3,0,80.7,0,121c0,13.1,0.8,26.2,3.6,39.1 c4,18.1,11,34.8,23.4,48.8c15.1,17,34,26.7,56.7,28.3c17.7,1.2,35.3,0.2,52.2-6.1c13.1-4.9,24.8-12.4,35.7-21c2-1.6,3.9-3.3,6-4.6 c9.1-5.8,20.9-4.4,27.9,3.4c3.9,4.3,5,9.6,4.5,15.1c-0.5,6.4-3.3,11.8-7.9,16.3c-20,19.2-43.1,32.6-70.4,38.4 c-19,4-38.2,5.7-57.5,3.1c-43.3-5.9-76.2-27.5-98.1-65.4c-9.2-15.9-14.5-33.2-18-51.1c-3-14.9-4.1-30-4.1-45.1 C1316.3,255,1316.3,215.1,1316.3,175.3z">
+                                            </path>
+                                            <path class="st0"
+                                                d="M120.9,121.3c15,0,29.7,2,44,6.3c22.5,6.6,40.9,19.3,55.6,37.4c1.4,1.8,2.9,3.5,4.2,5.3 c5.3,7.2,6.8,15.1,3.7,23.6c-3.5,9.7-13.1,15-22.8,13.1c-7.4-1.5-13.2-5-17.8-11.1c-11.9-15.6-27.8-24.5-47-27.9 c-16.3-2.9-32.6-2.7-48.9,0.8c-6.8,1.5-13.3,4-19.4,7.4c-7.1,4-12.9,9.3-16.4,16.8c-5.8,12.5-4.8,31.1,8.6,43 c5.5,4.8,11.6,8.5,18.1,11.6c12.1,5.8,24.8,9.8,37.6,13.6c19,5.6,37.9,11.4,56.2,19c14.8,6.2,29,13.7,41.1,24.4 c21.7,19.2,29.2,43.5,24,71.7c-5.1,27.6-21.6,47.1-44.8,61.8c-13.7,8.6-28.9,13.7-44.7,16.8c-24.7,4.8-49.2,3.1-73.5-2.7 c-19.4-4.6-37.1-12.7-52.6-25.4c-9.1-7.4-16.4-16.5-22.5-26.3c-4.1-6.6-4.7-13.8-1.6-21c3.8-8.9,12.8-12.8,22.1-11.5 c6,0.8,11.4,3.2,16.1,7c1,0.8,1.9,1.7,2.6,2.7c10.9,16.5,26.8,26,45.5,31c14.7,3.9,29.8,4.7,45,3.9c14.7-0.8,28.2-5.1,40.6-13 c9.3-6,16.7-13.8,20.7-24.4c5.3-13.9,3-29.5-8.4-40.4c-5.5-5.3-11.9-9.4-18.6-12.8c-14.2-7.3-29.3-12.2-44.5-16.9 c-12.2-3.7-24.6-6.6-36.7-10.6c-13.8-4.6-27.2-10.1-39.4-18.1c-8.3-5.4-15.9-11.5-22.4-19.1c-13-15.4-18.6-33.4-17.8-53.2 c0.9-21.5,9.4-39.8,25.8-54c11.2-9.8,24-16.6,38.2-21C87.2,124,103.8,121.3,120.9,121.3z">
+                                            </path>
+                                            <path class="st0"
+                                                d="M1941.9,355.9c0-22.1-0.3-44.1,0.1-66.2c0.5-25.1,5-49.7,14.8-72.9c17-40.1,46.7-66.5,87.7-80.4 c19.1-6.5,38.8-10,58.9-10.8c6-0.3,12.1-0.9,18.1,0c6.4,1.1,12.1,3.4,16.1,8.8c9.7,13.1,2.7,32.9-13.1,35.9 c-2.8,0.5-5.5,0.8-8.3,0.9c-17.1,0.4-34,1.9-50.3,7.4c-16.5,5.5-31.4,13.6-44,25.8c-14.3,13.9-23.2,30.9-28.6,49.9 c-4.1,14.4-5.5,29.2-5.5,44.1c-0.1,43,0,86,0,129c0,6-1.3,11.7-5,16.7c-8.8,11.7-27.1,11.1-35.9-0.1c-3.8-4.8-5.1-10.3-5.1-16.2 c0-24,0-47.9,0-71.9C1941.9,355.9,1941.9,355.9,1941.9,355.9z">
+                                            </path>
+                                        </g>
+                                    </svg>
+                                </a>
+                                <div class="d-lg-block d-none">
+                                    <p class="sub-scribe">
+                                        Subscribe to our
+                                        <span>newsletter_</span>
+                                    </p>
+                                    <form class="footer-form">
+                                        <div class="form-box">
+                                            <input type="email" placeholder="Email address*" class="form-control" />
+                                            <i class="fa-solid fa-arrow-right custom-arrow"></i>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-9 px-0">
+                            <div class="row mx-0 px-0 footer-part">
+                                <div class="col-lg-2 px-0 col-6">
+                                    <div class="col-box">
+                                        <h4>Product</h4>
+                                        <ul class="footer-nav-item nav flex-column">
+                                            <li>
+                                                <a href="#">Device Intelligence Platform</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Smart Signals</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Integrations</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">FingerprintJS vs. Pro</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Demo</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Identification</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Pricing</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="col-lg-2 px-0 col-6">
+                                    <div class="col-box">
+                                        <h4>Use Cases</h4>
+                                        <ul class="footer-nav-item nav flex-column">
+                                            <li>
+                                                <a href="#">New Account Fraud</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Account Takeover</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Account Sharing Prevention</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">SMS Fraud</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Paywall Fraud</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Paywall Enforcement</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Personalization</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Bot Detection</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="col-lg-2 px-0 col-6">
+                                    <div class="col-box">
+                                        <h4>Resources</h4>
+                                        <ul class="footer-nav-item nav flex-column">
+                                            <li>
+                                                <a href="#">Resource Center</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Blog</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Case Studies</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Guides</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">FAQ</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Support Center</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="col-lg-2 px-0 col-6">
+                                    <div class="col-box">
+                                        <h4>Developers</h4>
+                                        <ul class="footer-nav-item nav flex-column">
+                                            <li>
+                                                <a href="#">Documentation</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Tutorials</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">SDKs and Libraries</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Guides</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Discord Community</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 px-0 col-6">
+                                    <div class="col-box">
+                                        <h4>Company</h4>
+                                        <ul class="footer-nav-item nav flex-column">
+                                            <li>
+                                                <a href="#">About us</a>
+                                            </li>
+                                            <li>
+                                                <a href="#" class="career-txt">Careers
+                                                    <span class="hire-btn">We‘re hiring</span>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Press</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Partners</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">System status</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Security</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-12 px-0 d-lg-none d-block">
+                            <div class="">
+                                <p class="sub-scribe">
+                                    Subscribe to our
+                                    <span>newsletter_</span>
+                                </p>
+                                <form class="footer-form">
+                                    <div class="form-box">
+                                        <input type="email" placeholder="Email address*" class="form-control" />
+                                        <i class="fa-solid fa-arrow-right custom-arrow"></i>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="bottom-footer-section">
+                <div class="container">
+                    <div class="bottom-footer">
+                        <ul class="nav copy-left-section">
+                            <li>
+                                <p>© 2025 FingerprintJS, Inc</p>
+                            </li>
+                            <li><a href="#">Privacy policy</a></li>
+                            <li><a href="#">Terms and conditions</a></li>
+                        </ul>
+                        <div class="d-flex copy-right-section">
+                            <ul class="nav social-icon">
+                                <li class="">
+                                    <a href="#">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="16"
+                                            viewBox="0 0 18 16" fill="none">
+                                            <path
+                                                d="M12.3683 12.8115C12.3683 13.7738 13.8118 15.6986 14.293 15.6986C15.7365 15.6986 17.0194 14.0943 17.6612 12.8115C18.3031 11.2072 18.1424 7.19802 16.2177 1.74432C14.8155 0.767526 13.3306 0.454759 11.8871 0.300781L10.9517 2.1514C9.66106 1.92861 8.34183 1.92861 7.05122 2.1514L6.11292 0.300781C4.66938 0.454759 3.18445 0.767526 1.78229 1.74432C-0.142429 7.19802 -0.303144 11.2072 0.338751 12.8115C0.980646 14.0943 2.26347 15.6986 3.70702 15.6986C4.1882 15.6986 5.63174 13.7738 5.63174 12.8115"
+                                                fill="#fff"></path>
+                                            <path
+                                                d="M5.14844 7.99947C5.14844 8.2547 5.24983 8.49948 5.43031 8.67996C5.61078 8.86044 5.85556 8.96183 6.1108 8.96183C6.36603 8.96183 6.61081 8.86044 6.79129 8.67996C6.97177 8.49948 7.07316 8.2547 7.07316 7.99947C7.07316 7.74424 6.97177 7.49946 6.79129 7.31898C6.61081 7.1385 6.36603 7.03711 6.1108 7.03711C5.85556 7.03711 5.61078 7.1385 5.43031 7.31898C5.24983 7.49946 5.14844 7.74424 5.14844 7.99947Z"
+                                                fill="#FAFAF8"></path>
+                                            <path
+                                                d="M10.9219 7.99947C10.9219 8.2547 11.0233 8.49948 11.2037 8.67996C11.3842 8.86044 11.629 8.96183 11.8842 8.96183C12.1395 8.96183 12.3843 8.86044 12.5647 8.67996C12.7452 8.49948 12.8466 8.2547 12.8466 7.99947C12.8466 7.74424 12.7452 7.49946 12.5647 7.31898C12.3843 7.1385 12.1395 7.03711 11.8842 7.03711C11.629 7.03711 11.3842 7.1385 11.2037 7.31898C11.0233 7.49946 10.9219 7.74424 10.9219 7.99947Z"
+                                                fill="#FAFAF8"></path>
+                                            <path
+                                                d="M4.1875 12.3301C7.55576 13.2924 10.4428 13.2924 13.8111 12.3301H4.1875Z"
+                                                fill="#fff"></path>
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li class="">
+                                    <a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18"
+                                            viewBox="0 0 18 18" fill="none">
+                                            <path
+                                                d="M4.1388 17.5161V6.02418H0.31911V17.5161H4.1388ZM2.22945 4.4542C3.56144 4.4542 4.39054 3.57176 4.39054 2.46899C4.36573 1.34135 3.56149 0.483398 2.25473 0.483398C0.948163 0.483398 0.09375 1.34137 0.09375 2.46899C0.09375 3.57181 0.922648 4.4542 2.20451 4.4542H2.22933H2.22945ZM6.25299 17.5161H10.0727V11.0985C10.0727 10.755 10.0975 10.4119 10.1984 10.1664C10.4745 9.48014 11.103 8.7694 12.1582 8.7694C13.5403 8.7694 14.0933 9.82324 14.0933 11.3681V17.5161H17.9127V10.9267C17.9127 7.3968 16.0283 5.75438 13.5152 5.75438C11.4546 5.75438 10.5499 6.90617 10.0473 7.69065H10.0728V6.02394H6.25307C6.3032 7.10228 6.25307 17.5159 6.25307 17.5159L6.25299 17.5161Z"
+                                                fill="#fff"></path>
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li class="">
+                                    <a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="18"
+                                            viewBox="0 0 20 18" fill="none">
+                                            <path
+                                                d="M0.42961 0L7.85482 9.92803L0.382812 18H2.06459L8.60647 10.9327L13.8919 18H19.6147L11.7716 7.51364L18.7265 0H17.0447L11.0202 6.50863L6.15238 0H0.42961ZM2.90274 1.23866H5.53176L17.1412 16.7613H14.5122L2.90274 1.23866Z"
+                                                fill="#fff"></path>
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li class="">
+                                    <a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="18"
+                                            viewBox="0 0 20 18" fill="none">
+                                            <path
+                                                d="M10.0027 0C4.92792 0 0.8125 4.13151 0.8125 9.2281C0.8125 13.3045 3.44582 16.7627 7.09937 17.984C7.55894 18.069 7.72668 17.7841 7.72668 17.5394C7.72668 17.3199 7.71864 16.7397 7.71404 15.9699C5.1577 16.5272 4.61771 14.7326 4.61771 14.7326C4.20066 13.6664 3.59747 13.3826 3.59747 13.3826C2.76221 12.8104 3.65952 12.8219 3.65952 12.8219C4.5821 12.8874 5.06694 13.7732 5.06694 13.7732C5.88727 15.1829 7.21886 14.7762 7.74277 14.5395C7.82549 13.9433 8.06331 13.5365 8.32642 13.3056C6.28594 13.0724 4.13976 12.2808 4.13976 8.74555C4.13976 7.73796 4.49823 6.91418 5.08647 6.26849C4.99111 6.03526 4.67631 5.09659 5.17609 3.82704C5.17609 3.82704 5.94816 3.57888 7.7037 4.7726C8.43671 4.56809 9.22257 4.46584 10.005 4.46239C10.7851 4.46699 11.5721 4.56809 12.3063 4.77375C14.0607 3.58002 14.8316 3.82819 14.8316 3.82819C15.3325 5.09889 15.0177 6.03641 14.9235 6.26964C15.5129 6.91533 15.8679 7.7391 15.8679 8.7467C15.8679 12.2911 13.7194 13.0712 11.6721 13.2999C12.0018 13.5848 12.2959 14.1478 12.2959 15.0083C12.2959 16.2422 12.2844 17.2372 12.2844 17.5394C12.2844 17.7864 12.4499 18.0736 12.9163 17.9828C16.5641 16.7604 19.1952 13.3033 19.1952 9.2281C19.1952 4.13151 15.0797 0 10.0027 0Z"
+                                                fill="#fff"></path>
+                                        </svg>
+                                    </a>
+                                </li>
+                            </ul>
+                            <ul class="nav-system">
+                                <li><a class="system-txt">All systems normal</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </footer>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- jQuery and Owl Carousel JS -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="../js/script.js"></script>
+</body>
+
+</html>
